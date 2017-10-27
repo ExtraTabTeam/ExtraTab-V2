@@ -46,6 +46,9 @@ sudo apt-get install git redis-server lua5.2 liblua5.2-dev lua-lgi libnotify-dev
 add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get update
 apt-get upgrade
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
+sudo apt-get install lua-lgi
+sudo apt-get install libnotify-dev
 sudo apt-get install libconfig++9v5 libstdc++6
 sudo apt autoremove
 chmod +x launch.sh
