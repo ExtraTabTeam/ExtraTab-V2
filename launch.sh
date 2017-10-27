@@ -106,7 +106,7 @@ function configure() {
     mkdir $HOME/.telegram-bot; cat <<EOF > $HOME/.telegram-bot/config
 default_profile = "main";
 main = {
-  lua_script = "$HOME/ExtraTab[TD-bot]/ExtraTab.lua";
+  lua_script = "$HOME/ExtraTab-V2/ExtraTab.lua";
 };
 EOF
     printf "\nDone\n"
