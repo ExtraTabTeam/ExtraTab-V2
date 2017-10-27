@@ -14,7 +14,7 @@
 git clone https://github.com/ExtraTabTeam/ExtraTab-V2
  
  
-cd ExtraTab-V2
+cd ExtraTab[TDbot]
 
 
 chmod +x launch.sh
@@ -27,12 +27,11 @@ chmod +x launch.sh
 
 
 • حال شماره ربات خود را وارد کنید سپس اینتر بزنید :
+
+• شماره ربات باید بدون فاصله و با کد کشوری باشد .
  ----------------------------------------------------------------------
  
-tmux
-
-
-./launch.sh auto
+screen ./launch.sh auto
 
 
 • تمام •
