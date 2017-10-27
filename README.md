@@ -14,7 +14,7 @@
 git clone https://github.com/ExtraTabTeam/ExtraTab-V2
  
  
-cd ExtraTab[TDbot]
+cd ExtraTab-V2
 
 
 chmod +x launch.sh
