@@ -9,6 +9,17 @@ lualibs=(
 'serpent'
 )
 
+#!/bin/bash
+# Launch created by @Maqzafzar
+
+tgcli_version="170904-nightly"
+luarocks_version=2.4.2
+
+lualibs=(
+'redis-lua'
+'serpent'
+)
+
 today=`date +%F`
 
 get_sub() {
