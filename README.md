@@ -11,7 +11,7 @@
 • آموزش نصب :
 -------------------------------------------------------------------------------
 
-git clone https://github.com/ExtraTabTeam/ExtraTab-V2
+git clone https://github.com/ExtraTabTeam/ExtraTab-V2.git
  
  
 cd ExtraTab-V2
