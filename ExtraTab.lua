@@ -330,10 +330,10 @@ showedit(data.message,data)
  elseif (data._== "updateMessageEdited") then
 showedit(data.message,data)
 data = data
-local function edit(sepehr,amir,hassan)
-showedit(amir,data)
+local function Message(AliReza,Reza,Arshia)
+showedit(Reza,data)
 end
-assert (tdbot_function ({_ = "getMessage", chat_id = data.chat_id,message_id = data.message_id }, edit, nil))
+assert (tdbot_function ({_ = "getMessage", chat_id = data.chat_id,message_id = data.message_id }, Message, nil))
 assert (tdbot_function ({_ = "openChat",chat_id = data.chat_id}, dl_cb, nil))
 assert (tdbot_function ({ _ = 'openMessageContent',chat_id = data.chat_id,message_id = data.message_id}, dl_cb, nil))
 assert (tdbot_function ({_="getChats",offset_order="9223372036854775807",offset_chat_id=0,limit=20}, dl_cb, nil))
